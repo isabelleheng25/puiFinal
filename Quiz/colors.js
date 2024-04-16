@@ -73,7 +73,7 @@ let quizData = [
   const createQuestion = () => {
   
     options.innerHTML = "";
-    image.src = './assets/' + quizData[questionNumber].image;
+    image.src = '../assets/' + quizData[questionNumber].image;
     question.innerHTML = `<span class='question-number'>${
       questionNumber + 1
     }/${MAX_QUESTIONS}</span>${quizData[questionNumber].question}`;
