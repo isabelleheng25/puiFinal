@@ -4,39 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Korean Vocab</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <link rel="stylesheet" href="../css/main.css" />
   <body>
-    <div class="start-btn-container">
-      <h2>Let's Learn Korean!</h2>
-      <p>Pick your category to work on</p>
-      <div class="games">
-        <button class="start-btn">Colors</button>
-      </div>
-      <div class="games">
-        <button class="start-btn">Everyday Items</button>
-      </div>
-      <div class="games">
-        <button class="start-btn">Emotions</button>
-      </div>
-      
+    <div class="main">
+        <h1>Let's Learn Korean!</h1>
+        <p>Pick your category to work on</p>
+        <div class="games">
+            <a href="../Quiz/color.html">
+                <button class="start-btn">Colors</button>
+            </a>
+        </div>
+        <div class="games">
+            <a href="../Quiz/everydayItems.html">
+                <button class="start-btn2">Everyday Items</button>
+            </a>
+        </div>
+        <div class="games">
+            <a href="../Quiz/emotions.html">
+                <button class="start-btn3">Emotions</button>
+            </a>
+        </div>
     </div>
 
-    <div class="quiz-container">
-      <h1>Let's Learn Korean!</h1>
-      <h2 class="question"></h2>
-      <div class="image">
-        <img id="imgSource" src= ""
-                width= "400"
-                height="400" />
-      </div>
-      <div class="options"></div>
-      <button class="next-btn">Next</button>
-    </div>
-
-    <div class="quiz-result"></div>
-
-    <script src="colors.js"></script>
-    <script src="everydayItems.js"></script>
   </body>
 </html>

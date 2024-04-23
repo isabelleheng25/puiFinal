@@ -1,0 +1,33 @@
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.main .start-btn, .start-btn2, .start-btn3 {
+    background: #e63946;
+    display: flex;
+    color: #fff;
+    padding: 8px 32px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+  }

@@ -125,10 +125,12 @@
     margin: 0;
   }
   
-  .start-btn-container .start-btn {
+  .start-btn-container .start-btn, .start-btn2, .start-btn3 {
     background: #e63946;
+    display: flex;
     color: #fff;
     padding: 8px 32px;
+    margin-bottom: 10px;
     border-radius: 8px;
     border: none;
     font-size: 24px;

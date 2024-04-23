@@ -1,24 +1,25 @@
 let quizData = [
+  
     {
-      question: "Which one of these is bed?",
+      question: "Which one of these is purple?",
       image: "purple.jpg",
       options: ["보라색", "까만색", "하얀색", "노란색"],
       correct: "보라색",
     },
     {
-      question: "Which one of these is smartphone?",
+      question: "Which one of these is black?",
       image: "black.jpg",
       options: ["보라색", "까만색", "하얀색", "노란색"],
       correct: "까만색",
     },
     {
-      question: "Which one of these is car?",
+      question: "Which one of these is white?",
       image: "white.jpg",
       options: ["보라색", "까만색", "하얀색", "노란색"],
       correct: "하얀색",
     },
     {
-      question: "Which one of these is book?",
+      question: "Which one of these is yellow?",
       image: "yellow.jpg",
       options: ["보라색", "까만색", "하얀색", "노란색"],
       correct: "노란색",
@@ -32,7 +33,7 @@ let quizData = [
   const nextBtn = document.querySelector(".quiz-container .next-btn");
   const quizResult = document.querySelector(".quiz-result");
   const startBtnContainer = document.querySelector(".start-btn-container");
-  const startBtn = document.querySelector(".start-btn-container .games .start-btn2");
+  const startBtn = document.querySelector(".start-btn-container .start-btn");
   
   let questionNumber = 0;
   let score = 0;
@@ -72,7 +73,7 @@ let quizData = [
   const createQuestion = () => {
   
     options.innerHTML = "";
-    image.src = '/assets/' + quizData[questionNumber].image;
+    image.src = '../assets/' + quizData[questionNumber].image;
     question.innerHTML = `<span class='question-number'>${
       questionNumber + 1
     }/${MAX_QUESTIONS}</span>${quizData[questionNumber].question}`;
