@@ -147,7 +147,7 @@ const displayQuizResult = () => {
   retakeBtn.addEventListener("click", () => {
       resetLocalStorage();
       quizResult.style.display = "none";
-      startBtnContainer.style.display = "block";
+      startBtnContainer.style.display = "flex";
   });
   quizResult.appendChild(retakeBtn);
 };

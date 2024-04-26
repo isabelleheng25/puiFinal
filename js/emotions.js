@@ -1,28 +1,28 @@
 let quizData = [
   
   {
-    question: "Which one of these is purple?",
-    image: "purple.jpg",
-    options: ["보라색", "까만색", "하얀색", "노란색"],
-    correct: "보라색",
+    question: "Which one of these is happy?",
+    image: "happy.jpg",
+    options: ["행복해", "화났어", "슬퍼해", "피곤해"],
+    correct: "행복해",
   },
   {
-    question: "Which one of these is black?",
-    image: "black.jpg",
-    options: ["보라색", "까만색", "하얀색", "노란색"],
-    correct: "까만색",
+    question: "Which one of these is sad?",
+    image: "sad.jpg",
+    options: ["행복해", "화났어", "슬퍼해", "피곤해"],
+    correct: "슬퍼해",
   },
   {
-    question: "Which one of these is white?",
-    image: "white.jpg",
-    options: ["보라색", "까만색", "하얀색", "노란색"],
-    correct: "하얀색",
+    question: "Which one of these is angry?",
+    image: "angry.jpg",
+    options: ["행복해", "화났어", "슬퍼해", "피곤해"],
+    correct: "화났어",
   },
   {
-    question: "Which one of these is yellow?",
-    image: "yellow.jpg",
-    options: ["보라색", "까만색", "하얀색", "노란색"],
-    correct: "노란색",
+    question: "Which one of these is tired?",
+    image: "tired.jpg",
+    options: ["행복해", "화났어", "슬퍼해", "피곤해"],
+    correct: "피곤해",
   },
 ];
 
@@ -147,7 +147,7 @@ const displayQuizResult = () => {
   retakeBtn.addEventListener("click", () => {
       resetLocalStorage();
       quizResult.style.display = "none";
-      startBtnContainer.style.display = "block";
+      startBtnContainer.style.display = "flex";
   });
   quizResult.appendChild(retakeBtn);
 };

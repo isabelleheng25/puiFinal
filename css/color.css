@@ -83,7 +83,9 @@
   
   .quiz-result .question-container {
     padding: 12px;
-    border: 1px solid #eee;
+    border: 1px solid #eeeeee;
+    background: #36b931;
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -138,3 +140,28 @@
     text-transform: uppercase;
     font-weight: bold;
   }
+
+
+  .back{
+    background: #495cd5;
+    display: flex;
+    color: #fff;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.games{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

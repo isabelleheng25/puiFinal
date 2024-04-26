@@ -98,7 +98,7 @@ let quizData = [
     resetLocalStorage();
   
     createQuestion();
-    quizResult.style.display = "none";
+    startBtnContainer.style.display = "none";
     quizContainer.style.display = "block";
   };
   
@@ -147,7 +147,7 @@ let quizData = [
     retakeBtn.addEventListener("click", () => {
         resetLocalStorage();
         quizResult.style.display = "none";
-        startBtnContainer.style.display = "block";
+        startBtnContainer.style.display = "flex";
     });
     quizResult.appendChild(retakeBtn);
   };
